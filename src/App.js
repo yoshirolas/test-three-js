@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { create3dWorld } from './threeApp';
+
 
 class App extends Component {
   componentDidMount() {
-    const canvasSize = {
-      width: this.container.offsetWidth,
-      height: this.container.offsetHeight
-    };
-    console.log(canvasSize);
+    create3dWorld(this.container)
   }
 
   render() {
