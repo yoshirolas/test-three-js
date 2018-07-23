@@ -2,7 +2,7 @@
   "name": "test-tree-js",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://yoshirolas.github.io/test-tree-js",
+  "homepage": "http://yoshirolas.github.io/test-three-js",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
